@@ -1,0 +1,29 @@
+.mike{
+  height: 200;
+  width: 269;
+}
+table{
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  width: 80%;
+}
+.descrizione{
+  text-align:
+  padding-top: 15;
+  height: 200;
+  width: 269;
+}
+header{
+  background-color: #99cbff;
+}
+#titoloLang{
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+}
+tr, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}

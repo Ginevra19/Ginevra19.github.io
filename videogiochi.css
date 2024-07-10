@@ -1,0 +1,132 @@
+header {
+    margin: 0%;
+    padding: 3%;
+    text-align: flex;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    color: #000000;
+    background-color: #5aa2ed;
+}
+
+body {
+    background: #000000;
+}
+
+.titoletto {
+    text-align: flex;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: large;
+    color: #7fff00;
+    margin-left: 2%;
+}
+
+.immaginesin img {
+    width: 20%;
+    height: auto;
+    float: left;
+    display: flex;
+    margin: 2%;
+}
+
+.immaginedes img {
+    width: 20%;
+    height: auto;
+    float: right;
+    display: flex;
+    margin: 2%;
+}
+
+.contenitore {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.contenitore .titoletto {
+    flex-basis: 100%;
+}
+
+.contenitore .paragrafo {
+    flex-basis: 0;
+    flex-grow: 1;
+
+}
+
+.paragrafo {
+	display: clear;
+    color: white;
+    font-family: 'VT323', monospace;
+    margin: 2%;
+    margin-top: 1%;
+}
+
+/*DA AGGIUNGERE */
+
+.elementi-orizzontali {
+    margin-left: 2%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    margin-top: 2rem;
+}
+
+a {
+    color: white;
+    font-family: 'VT323', monospace;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: blue;
+}
+
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin:0%;
+    padding:3%;
+    text-align: flex;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    color: #000000;
+    background-color:#5aa2ed;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: flex;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}

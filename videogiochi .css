@@ -1,0 +1,95 @@
+header {
+	 margin:0%;
+	 padding:3%;
+	 text-align: flex;
+      font-family: "Jersey 10", sans-serif;
+	 font-weight: 400;
+	 font-style: normal;
+	 font-size: large;
+	 color: #000000;
+	 background-color:#5aa2ed;
+}
+
+footer{
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		margin:0%;
+		padding:3%;
+		text-align: flex;
+		font-weight: 400;
+		font-style: normal;
+		font-size: large;
+		color: #000000;
+		background-color:#5aa2ed;
+	}
+
+body{
+		background:#000000;
+}
+
+.titoletto{
+			text-align: flex;
+			font-family: "Jersey 10", sans-serif;
+			font-weight: 100;
+			font-style: normal;
+			font-size: large;
+			color:#7fff00 ;
+			margin-left:2%;
+		}
+.immaginesin img{
+			width:20%;
+			height:auto;
+			float:left;
+			display:flex;
+			margin:2%;
+		}
+		
+.immaginedes img{
+					width:20%;
+					height:auto;
+					float:right;
+					display:flex;
+					margin:2%;
+				}
+				
+.contenitore {
+			display:flex;
+			flex-wrap:wrap;
+			align-items: flex-start;
+		}
+.contenitore .titoletto{
+					flex-basis:100%;
+				}		
+.contenitore .paragrafo {
+    flex-basis: 0;
+    flex-grow: 1;
+
+}
+
+#bertie, #OXO, #pong , #spaceIN, #asteroids, #pacman, #aB, #fruitN ,#pkGo{
+			padding:1%;
+			margin:2%;
+			float:left;
+			color:white;
+			font-family: 'VT323', monospace;
+		}
+		
+		
+	
+.paragrafo{
+	display:clear;
+	color:white;
+	font-family: 'VT323', monospace;
+	margin:2%;
+	margin-top:1%;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+
+}
